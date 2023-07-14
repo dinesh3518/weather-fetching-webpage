@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="icon" type="image/x-icon" href="mist.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button><img src="search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-icon">
+            <p class="description">Description</p>
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">City</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png" >
+                    <div>
+                        <p class="humidity">0%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.png" >
+                    <div>
+                        <p class="wind">0 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>       
