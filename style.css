@@ -7,7 +7,7 @@
 body{
     background: #222;
     height: 100vh;
-    background: url("images/back.jpg");
+    background: url("back.jpg");
     background-repeat:round;
     background-size: auto;
 }
